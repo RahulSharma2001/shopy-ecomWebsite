@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300&family=Montserrat:wght@700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica, sans-serif;
+}
+
+.navbar1{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #1d6ded;
+    z-index: 9;
+}
+
+.nav1{
+    padding: 10px ;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.nav1 h1{
+color:#fff;
+font-size: 2.5rem;
+font-family:'Courier New', Courier, monospace;
+font-variant-caps: small-caps;
+}
+.img1{
+display: flex;
+align-self: center;
+height: 40px;
+width: auto;
+
+}
+.nav-items1{
+    display: flex;
+    align-items: center;
+}
+
+.search1{
+    width: 500px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.search-box1{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+   border: none;
+    text-transform: capitalize;
+    background: #fff;
+    color: #080808;
+    outline: none;
+}
+
+.search-btn1{
+    width: 20%;
+    height: 40px;
+    padding: 10px ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    color:  #383838;
+    text-transform: capitalize;
+    font-size: 15px;
+    
+}
+.search-btn1:hover{
+
+color:blue;
+
+
+
+}
+.search-box1::placeholder{
+    color: black;
+}
+
+
+
+.nav-items1 a img{
+    width: 30px;
+}
+.links-container1{
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+   background-color: #fff;
+}
+
+.link1{
+    text-transform: capitalize;
+    padding:  10px;
+    margin: 5px;
+    text-decoration: none;
+    color: #383838;
+   
+}
+
+.link1:hover{
+    font-weight: bold;
+    color: #1d6ded;
+}
+
+
+.assos_item1{
+display: none;
+position: absolute;
+background-color:white;
+list-style-type: none;
+margin: 10px;
+padding: 15px;
+
+
+}
+.assos_item1 li{
+text-transform: uppercase;
+padding: 15px;
+border-bottom: 3px solid #383838;
+cursor: pointer;
+
+}
+
+.assos_item1 a{
+
+text-decoration: none;
+   border: none;
+    outline: none;
+    cursor: pointer;
+ color: #080808;
+ font-weight: normal;
+
+}
+.assos_item1 li:last-child{
+border-bottom: none;
+
+}
+
+.assos_item1 li a:hover{
+
+color: aqua;
+
+
+}
+
+.img1:hover{
+
+opacity: .5;
+
+
+}
+
+
+

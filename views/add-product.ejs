@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new Product</title>
+    <link rel="stylesheet" href="css/add-product.css">
+</head>
+
+<body>
+
+
+    <a href="http://localhost:3000/adminDashboard"><button class="back">Back</button></a>
+    <Center>
+
+
+
+        <div class="form">
+            <form action="/addproduct" method="post" enctype="multipart/form-data">
+                <h1> ADD NEW PRODUCT
+                </h1>
+                <p>
+
+                    Product Number <%=total%>
+                </p>
+
+                <div class="input">
+
+                    <input type="text" name="itemNo" id="itemNo" placeholder="Enter Product Number">
+                    <label for="img"><u>Upload photo</u></label>
+                    <input type="file" id="img" name="img">
+                    <LAbel for="title">Title</LAbel> <input type="text" id="title" name="title">
+                    <label for="price">price</label> <input type="number" id="price" name="price">
+                    <label for="moreinfo">More info</label> <br>
+                    <textarea name="moreinfo" id="moreinfo" cols="101" rows="15"></textarea>
+                </div>
+                <button type="submit" class="submit">ADD PRODUCT</button>
+            </form>
+
+
+
+        </div>
+
+
+
+    </Center>
+
+
+</body>
+
+</html>

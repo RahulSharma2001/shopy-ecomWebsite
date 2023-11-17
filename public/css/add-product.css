@@ -1,0 +1,45 @@
+
+
+input{
+display: flex;
+width: 50rem;
+height: 25px;
+padding: 5px;
+margin: 10px;
+
+}
+
+.submit{
+background-color: white;
+margin-top: 15px;
+padding: 15px;
+border: 1px solid black;
+color: black;
+cursor: pointer;
+font-weight: bold;
+
+}
+.submit:hover{
+
+background-color: aqua;
+
+}
+
+.back{
+
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  width:fit-content;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  float: right;
+
+}

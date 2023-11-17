@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/buypage.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1><strong>Awesome Choice</strong></h1>
+
+
+    </div>
+
+    <div class="container">
+
+        <div class="objectDetails">
+
+            <img src="" alt="" id="image">
+
+            <div id="title">
+
+                <h2>
+
+                </h2>
+
+            </div>
+
+            <div id="price">
+                <h2>
+
+                </h2>
+            </div>
+
+            <div id="info">
+                <h2>
+
+                </h2>
+            </div>
+
+        </div>
+        <form action="/payment" method="post">
+            <Address class="AddressDetails">
+                <h3>Enter Address details below</h3>
+
+                <div class="form-group">
+                    <input type="street" class="form-control" id="inputStreet" placeholder="Street" required>
+
+                    <input type="city" class="form-control" id="inputCity" placeholder="City" required>
+
+                    <input type="state" class="form-control" id="inputState" placeholder="State" required>
+
+                    <input type="zip" class="form-control" id="inputZip" placeholder="Zip" required>
+
+                    <input type="county" class="form-control" id="inputCounty" placeholder="County" required>
+
+
+                </div>
+
+
+
+
+
+                <div class="proceed">
+
+                    <Button type="submit" class="paymentBtn">
+
+                        Proceed to Payment
+                    </Button>
+
+                </div>
+
+            </Address>
+        </form>
+
+
+
+
+
+
+
+
+    </div>
+    <script>
+
+        var image = document.getElementById("image");
+        var title = document.getElementById("title");
+        var price = document.getElementById("price");
+        var info = document.getElementById("info");
+        var submit = document.getElementsByClassName("paymentBtn");
+
+        var itemImage = localStorage.getItem("image");
+        var itemTitle = localStorage.getItem("title");
+        var itemPrice = localStorage.getItem("price");
+        var itemInfo = localStorage.getItem("info");
+
+        image.setAttribute("src", itemImage);
+        title.innerHTML = itemTitle;
+        price.innerHTML = itemPrice;
+        info.innerHTML = itemInfo;
+
+
+
+    </script>
+</body>
+
+</html>

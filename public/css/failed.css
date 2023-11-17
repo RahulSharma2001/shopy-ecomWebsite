@@ -1,0 +1,39 @@
+body{
+  background-color: #f6f4f4;
+  font-family: 'Raleway', sans-serif;
+
+}
+.container{
+  padding: 20px;
+    text-align: center;
+}
+.failed
+{
+
+display:flex;
+  align-self: center;
+background-color: red; 
+display: inline;
+width: fit-content;
+  border:none;
+  border-radius: 5px ;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+
+
+}
+
+.failed:hover{
+
+opacity: .7;
+}
+
+a{
+
+text-decoration: none
+}
